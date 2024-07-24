@@ -6,6 +6,8 @@
         <img [src]="mock_data.picture" alt="{{mock_data.title}} img">
     </div>
     <div class="info-container">
-        <div class="status">{{mock_data.status}}</div>
+        @if (true) {
+            <div class="status">{{mock_data.status}}</div>
+        }
     </div>
 </div>
